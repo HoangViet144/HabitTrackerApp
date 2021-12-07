@@ -19,7 +19,7 @@ class BeforeApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return FutureBuilder(
       // future: _initialization,
-      future: Future.delayed(Duration(seconds: 5)),
+      future: Future.delayed(Duration(seconds: 1)),
       builder: (context, snapshot) {
         if (snapshot.hasError) {
           return const WelcomeScreen();

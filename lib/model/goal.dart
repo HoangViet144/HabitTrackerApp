@@ -1,18 +1,24 @@
+import 'package:flutter/cupertino.dart';
+import 'package:json_annotation/json_annotation.dart';
+
+part 'goal.g.dart';
+
+@JsonSerializable()
 class Goal {
-  final int id;
+  final String id;
   final String description;
   final double progress;
   final int priority;
   final DateTime? dueDate;
-  Goal({
-    this.id = 0,
+  const Goal({
+    this.id = "",
     this.description = "",
     this.progress = 0,
     this.priority = 0,
     this.dueDate,
   });
   Goal copyWith({
-    int? id,
+    String? id,
     String? description,
     double? progress,
     int? priority,
@@ -26,4 +32,7 @@ class Goal {
       dueDate: dueDate ?? this.dueDate,
     );
   }
+
+  static fromJson(Map<String, dynamic> json) => _$GoalFromJson(json);
+  Map<String, dynamic> toJson() => _$GoalToJson(this);
 }
