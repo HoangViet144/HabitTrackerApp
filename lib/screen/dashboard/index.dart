@@ -116,7 +116,24 @@ class HomePage extends StatelessWidget {
                         )
                       ],
                     ),
-                  )
+                  ),
+                  Expanded(
+                    flex: 1,
+                    child: Row(
+                      children: [
+                        IconButton(
+                          icon: const Icon(Icons.access_alarm),
+                          onPressed: () {
+                            Goal newGoal =
+                                AppStateScope.of(context).goalList[index - 1];
+                            newGoal = newGoal.copyWith(progress: 100);
+                            AppStateWidget.of(context).updateGoal(newGoal);
+                          },
+                        ),
+                      ],
+                      mainAxisAlignment: MainAxisAlignment.end,
+                    ),
+                  ),
                 ],
               ));
         }
