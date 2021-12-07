@@ -1,16 +1,18 @@
-# habit_tracker_app
+# Habit Tracker App
 
-A new Flutter project.
+This project is conducted for participating in GOOGLE DEVFEST HCMC 2021 by students of Ho Chi Minh City University of Technology, Vietnam National University Ho Chi Minh City.
 
-## Getting Started
+Member:
+* [Viet Tran Hoang](https://github.com/HoangViet144)
+* [Thuan Ngo Le Gia](https://github.com/nlgtEA)
+* [Minh Tran Duy](https://github.com/Mdtr3002)
+* [Khoa Tran Ngoc Dang](https://github.com/Jamesklein218)
 
-This project is a starting point for a Flutter application.
+## Abstraction
 
-A few resources to get you started if this is your first Flutter project:
+People usually feel lazy when they don't have some deadlines or someone urges them . Moreover, they are likely to want to share what they have done through a period of time as proud achivements .
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Therefore, it is necessary to have an app which can not only push them little pressure but also record their effort. As a result, our app - Habit Tracker App is a perfectly suitable application for them. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+With our app, users can create a habit goal to achieve with a due date, edit them, delete them and also see list of goals they have finished.
+
