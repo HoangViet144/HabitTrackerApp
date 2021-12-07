@@ -19,7 +19,7 @@ class _HabitTrackerAppState extends State<HabitTrackerApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Habit Tracker App',
-      initialRoute: '/create-goal',
+      initialRoute: '/login',
       routes: <String, WidgetBuilder>{
         '/login': (BuildContext context) => const LoginScreen(),
         '/dashboard': (BuildContext context) => const DashBoardScreen(),
