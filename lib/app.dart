@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:habit_tracker_app/screen/goal/goal_add/index.dart';
 
 import 'package:habit_tracker_app/screen/login/index.dart' show LoginScreen;
 import 'package:habit_tracker_app/constant/theme.dart' show theme;
@@ -23,6 +24,7 @@ class _HabitTrackerAppState extends State<HabitTrackerApp> {
         '/login': (BuildContext context) => const LoginScreen(),
         '/dashboard': (BuildContext context) => const DashBoardScreen(),
         '/achivements': (BuildContext context) => const DashBoardScreen(),
+        '/create-goal': (BuildContext context) => const AddGoalScreen()
       },
       theme: theme,
     );
