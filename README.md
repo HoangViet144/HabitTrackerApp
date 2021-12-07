@@ -14,5 +14,6 @@ People usually feel lazy when they don't have some deadlines or someone urges th
 
 Therefore, it is necessary to have an app which can not only push them little pressure but also record their effort. As a result, our app - Habit Tracker App is a perfectly suitable application for them. 
 
-With our app, users can create a habit goal to achieve with a due date, edit them, delete them and also see list of goals they have finished.
+With our app, users can create a habit goal to achieve with a due date, edit them, delete them and also see list of goals they have finished. Moreover, our app save all data on remote storage which helps them to get old data when they use new device or reinstall application.
+
 
