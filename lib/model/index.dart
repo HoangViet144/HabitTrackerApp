@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:habit_tracker_app/model/app_state.dart' show AppState;
 import 'package:habit_tracker_app/model/goal.dart' show Goal;
+import 'package:habit_tracker_app/service/storage.dart';
+import 'package:uuid/uuid.dart';
+
+final GlobalKey<AppStateWidgetState> appState =
+    GlobalKey<AppStateWidgetState>();
 
 class AppStateScope extends InheritedWidget {
   const AppStateScope(this.data, {Key? key, required Widget child})
@@ -49,11 +54,49 @@ class AppStateWidgetState extends State<AppStateWidget> {
   }
 
   void addGoal(Goal newGoal) {
-    // TODO
+    var uuid = Uuid();
+
+    String id = uuid.v1();
+    newGoal = newGoal.copyWith(id: id);
+    setState(() {
+      _data = _data.copyWith(goalsList: _data.goalList + [newGoal]);
+      storeGoalList(_data.goalList);
+    });
+
+    addGoalRemote(newGoal);
   }
 
-  void removeGoal(int id) {
-    // TODO
+  void removeGoal(String id) {
+    setState(() {
+      List<Goal> curGoal = List<Goal>.from(_data.goalList);
+      curGoal.removeWhere((element) => element.id == id);
+      _data = _data.copyWith(goalsList: curGoal);
+
+      storeGoalList(_data.goalList);
+      removeGoalRemote(id);
+    });
+  }
+
+  void updateGoal(Goal goal) {
+    setState(() {
+      List<Goal> curGoal = List<Goal>.from(_data.goalList);
+      curGoal[curGoal.indexWhere((element) => element.id == goal.id)] = goal;
+      _data = _data.copyWith(goalsList: curGoal);
+
+      storeGoalList(_data.goalList);
+      addGoalRemote(goal);
+    });
+  }
+
+  void addNotExistGoals(List<Goal> goals) {
+    setState(() {
+      List<Goal> curGoal = List<Goal>.from(_data.goalList);
+      curGoal.addAll(goals.where((newElement) => _data.goalList
+          .every((existElement) => existElement.id != newElement.id)));
+      _data = _data.copyWith(goalsList: curGoal);
+
+      storeGoalList(_data.goalList);
+    });
   }
 
   @override
