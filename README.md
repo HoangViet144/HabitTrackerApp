@@ -28,11 +28,17 @@ Habit Tracker App consist of 3 main pages:
 
 -Create new goal: Allow users to set new tasks (description, due date, progress, priority can be edited in this page giving users the freefdom to classify the new tasks for better understanding of what they need to achieve).
 
+## Guidance
+
+-The first page will be the login page, use **Username: viet@gmail.com; password: 123456** to login.
+-Click on add new goal on the top left corner to create goal, input neccessary fields and your new goal will be show on the My Dashboard page.
+-Click on the clock icon of any goal in my Dashboard page to update your goal to 100% progress.
+
 ## Images of Project's features and code
 
 1) Features:
 
--Login page. To login, use: **Username: viet@gmail.com/123456; password: 123456**
+-Login page. To login, use: **Username: viet@gmail.com; password: 123456**
 ![image](https://user-images.githubusercontent.com/92656809/145130954-20cf86f0-3ee5-4d7b-af47-0425e9b45c23.png)
 
 -My dashboard (click on the menu icon at the top left corner to navigate or log out, click on the "Add new goal" button to create goal):
