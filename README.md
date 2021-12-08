@@ -40,7 +40,7 @@ Habit Tracker App consist of 3 main pages:
 
 1) Features:
 
--Login page. To login, use: **Username: viet@gmail.com/123456; password: 123456**
+-Login page. To login, use: **Username: viet@gmail.com; password: 123456**
 ![image](https://user-images.githubusercontent.com/92656809/145130954-20cf86f0-3ee5-4d7b-af47-0425e9b45c23.png)
 
 -My dashboard (click on the menu icon at the top left corner to navigate or log out, click on the "Add new goal" button to create goal):
