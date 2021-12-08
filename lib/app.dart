@@ -23,7 +23,7 @@ class _HabitTrackerAppState extends State<HabitTrackerApp> {
       routes: <String, WidgetBuilder>{
         '/login': (BuildContext context) => const LoginScreen(),
         '/dashboard': (BuildContext context) => const DashBoardScreen(),
-        '/achievements': (BuildContext context) => const DashBoardScreen(),
+        '/achievements': (BuildContext context) => const AchievementScreen(),
         '/create-goal': (BuildContext context) => const AddGoalScreen()
       },
       theme: theme,
