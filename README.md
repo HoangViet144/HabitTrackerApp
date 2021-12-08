@@ -31,7 +31,9 @@ Habit Tracker App consist of 3 main pages:
 ## Guidance
 
 -The first page will be the login page, use **Username: viet@gmail.com; password: 123456** to login.
+
 -Click on add new goal on the top left corner to create goal, input neccessary fields and your new goal will be show on the My Dashboard page.
+
 -Click on the clock icon of any goal in my Dashboard page to update your goal to 100% progress.
 
 ## Images of Project's features and code
