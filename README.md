@@ -24,6 +24,8 @@ Habit Tracker App consist of 3 main pages:
 
 -Dashboard: A list of user's active goals (information such as goal's description, due date, progress, priority and progress update are provided) which can be seen as a reminder that not only helps our users keeping track of their progress but also gives them motivation to complete thier planned tasks.
 
+-Achievements: A list of progress 100% goals that you can be proud of.
+
 * Due date, progess and priority will provide users with sufficient information (which goal is the most vital, how much time remain for me to finish my task,...) from which a better management of goals, timetable, plans will be achieved.
 
 -Create new goal: Allow users to set new tasks (description, due date, progress, priority can be edited in this page giving users the freefdom to classify the new tasks for better understanding of what they need to achieve).
@@ -32,7 +34,9 @@ Habit Tracker App consist of 3 main pages:
 
 -The first page will be the login page, use **Username: viet@gmail.com; password: 123456** to login.
 
--Click on add new goal on the top left corner to create goal, input neccessary fields and your new goal will be show on the My Dashboard page.
+-Click on add new goal on the top right corner to create goal, input neccessary fields and your new goal will be show on the My Dashboard page.
+
+-Access your achievements by open the drawer at the top left corner and choose the route to Achievements
 
 -Click on the clock icon of any goal in my Dashboard page to update your goal to 100% progress.
 
@@ -48,6 +52,9 @@ Habit Tracker App consist of 3 main pages:
 
 * Navigation bar when click on menu icon:
 ![image](https://user-images.githubusercontent.com/92656809/145131636-e94f679e-d561-4169-87c8-69bbe24ac395.png)
+
+-Achievements:
+![image](https://user-images.githubusercontent.com/92656809/145140840-fca4845f-2a15-4b5a-9bbe-928d77b58cc5.png)
 
 -Create new Note page:
 ![image](https://user-images.githubusercontent.com/92656809/145131398-f9d06637-6ef5-4b12-b57c-f1c792528d82.png)
