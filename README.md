@@ -16,7 +16,7 @@ Therefore, it is necessary to have an app which can not only push them little pr
 
 With our app, users can create a habit goal to achieve with a due date, edit them, delete them and also see list of goals they have finished. Moreover, our app save all data on remote storage which helps them to get old data when they use new device or reinstall application.
 
-### Project's insight
+## Project's insight
 
 Habit Tracker App consist of 3 main pages:
 
@@ -28,7 +28,7 @@ Habit Tracker App consist of 3 main pages:
 
 -Create new goal: Allow users to set new tasks (description, due date, progress, priority can be edited in this page giving users the freefdom to classify the new tasks for better understanding of what they need to achieve).
 
-#### Images of Project's features and code
+## Images of Project's features and code
 
 1) Features:
 
@@ -62,7 +62,7 @@ Habit Tracker App consist of 3 main pages:
 *Project's routes:
 ![image](https://user-images.githubusercontent.com/92656809/145132417-0f6a6ab2-52e9-43bf-8d15-8e8f2894d747.png)
 
-##### Project's potential for future development
+## Project's potential for future development
 
 1) Filtering goals based on available fields: provide better management by listing the goals in order of progress, duedate... or by grouping similar tasks together.
 2) A vibrant achievement page: users will be given a digital plot of land of their own, for each goals fullfilled more construction will be built on this plot of land. This will provide users with more motivation to achieve their targets, also sharing your plot of land on social media is allowed.
