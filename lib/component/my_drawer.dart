@@ -58,15 +58,15 @@ class MyDrawer extends StatelessWidget {
             isSelected: ModalRoute.of(context)!.settings.name == '/dashboard',
           ),
           DrawerListTile(
-            title: "Achivements",
+            title: "Achievements",
             icon: Icons.emoji_events,
             iconColor: Colors.yellow[800]!,
             onTap: () {
-              if (ModalRoute.of(context)!.settings.name != "/achivements") {
-                Navigator.pushReplacementNamed(context, '/achivements');
+              if (ModalRoute.of(context)!.settings.name != "/achievements") {
+                Navigator.pushReplacementNamed(context, '/achievements');
               }
             },
-            isSelected: ModalRoute.of(context)!.settings.name == '/achivements',
+            isSelected: ModalRoute.of(context)!.settings.name == '/achievements',
           ),
           Divider(height: 4, thickness: 1, color: Colors.grey[200]),
           const Padding(
